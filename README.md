@@ -1,7 +1,7 @@
-# recursion-in-scala
+# Recursion in Scala
 
 -----------------------------
-Exercise 1: Pascal’s Triangle
+Sample 1: Pascal’s Triangle
 -----------------------------
 The following pattern of numbers is called Pascal’s triangle.
     
@@ -13,7 +13,7 @@ def pascal(c: Int, r: Int): Int
 
 
 ---------------------------------
-Exercise 2: Parentheses Balancing
+Sample 2: Parentheses Balancing
 ---------------------------------
 
 Write a recursive function which verifies the balancing of parentheses in a string, which we represent as a List[Char] not a String. For example, the function should return true for the following strings:
@@ -39,7 +39,7 @@ Hint: you can define an inner function if you need to pass extra parameters to y
 Testing: You can use the toList method to convert from a String to a List[Char]: e.g. "(just an) example".toList.
 
 ---------------------------
-Exercise 3: Counting Change
+Sample 3: Counting Change
 ---------------------------
 
 Write a recursive function that counts how many different ways you can make change for an amount, given a list of coin denominations. For example, there are 3 ways to give change for 4 if you have coins with denomiation 1 and 2: 1+1+1+1, 1+1+2, 2+2.
